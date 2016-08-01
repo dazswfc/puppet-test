@@ -1,6 +1,7 @@
 class test {
 
-package { 'Install elinks':
-  name   => elinks,
-  ensure => installed,
+  package { 'Install elinks':
+    name   => elinks,
+    ensure => installed,
+  }
 }
